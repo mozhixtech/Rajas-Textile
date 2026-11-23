@@ -1,0 +1,13 @@
+# Ignore raw Google search webpage dump
+video1.html
+
+# Ignore Google scripts and junk inside video1_files, keep only showroom webp images
+video1_files/*
+!video1_files/*.webp
+
+# Ignore temporary inspection scripts
+*.py
+*.log
+.system_generated/
+images/placeholder.txt
+assets/test.txt
